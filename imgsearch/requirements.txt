@@ -1,5 +1,0 @@
-django>=4.2
-pillow
-onnxruntime
-numpy
-requests
