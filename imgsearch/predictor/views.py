@@ -70,7 +70,8 @@ def index(request):
             {
                 "label": label,
                 "confidence": conf,
-                "search_url": f"https://www.google.com/search?q={label.replace(' ', '+')}",
+                "search_url": f"https://www.google.com/search?sca_esv=a05e7d08bd9fa9d0&sxsrf=ANbL-n7he8C-7C3S2VMEYD2iAIm_lZXNrQ:1778903361654&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3vWUtYx0DZdicpfE1faGYenqWn-q4MFiFFtvJjTKeAVxFEuu2a6K2e-w9K5a_rZUOKxN7GNvRdaInfJRF7OwgNushG80qqNo-Cb6l01uKv6wgFSGiod71s7qjTf6XArIrJWJvhX5z4LB2sYxLX0O05uHO5LfzmySjeP-TZn0aQF5-clYPg&q={label.replace(' ', '+')}&sa=X&ved=2ahUKEwio-te387yUAxX9aEEAHcoYDH0QtKgLegQIFxAB&biw=1366&bih=639&dpr=1",
+
             }
             for label, conf in results
         ]
